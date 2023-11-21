@@ -1,9 +1,11 @@
-const App = () => {
+import React from "react";
+import ProductPage from "./pages/ProductPage";
+
+function App() {
   return (
-    <div className="child">
-      <button className="child-btn">버튼</button>
+    <div>
+      <ProductPage />
     </div>
   );
-};
-
+}
 export default App;
